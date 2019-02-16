@@ -50,7 +50,6 @@ const move_mutation = cardId => `mutation {
 }`
 
 app.post("/deployed", async (req, res) => {
-    console.log(req.body)
     if (req.body.deployment.environment !== "igloo-production") {
         res.send("OK")
         return
