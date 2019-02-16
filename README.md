@@ -4,7 +4,7 @@ This tiny utility automatically moves cards from `Done` to `Production` on Githu
 
 ## Setup
 
-In the `.env` file add your ![personal access token](https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/) like this:
+In the `.env` file add your [personal access token](https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/) like this:
 
 ```
 GITHUB_KEY=HERE_GOES_YOUR_ACCESS_TOKEN
